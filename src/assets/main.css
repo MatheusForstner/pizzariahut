@@ -1,0 +1,84 @@
+:root {
+  --ocre: #000000;
+  --coral: #000000;
+  --coral-claro: #FFDBD1;
+  --creme: #FFFAF3;
+  --amarelo-escuro: #d68f24;
+  --verde-medio: #d68f24;
+  --cinza: #444444;
+  --cinza-claro: #EFEFEF;
+  --branco: #FFF;
+  --preto: #000;
+
+  --font-family-padrao: Nunito Sans, sans-serif;
+  --cabecalhos: Paytone One, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+button {
+  border: 0;
+  background-color: inherit;
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--creme);
+  font-family: var(--font-family-padrao);
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  background: url('./imagens/fundo-banner.png'), var(--amarelo-escuro, #f1f0f0);
+}
+
+.cabecalho-lg {
+  font-family: var(--cabecalhos);
+  font-size: 3.35625em;
+  line-height: 120%; /* 4.0275em */
+}
+
+.cabecalho {
+  font-family: var(--cabecalhos);
+  font-size: 2.75em;
+  line-height: 120%; /* 3.3em */
+}
+
+.subtitulo-lg {
+  font-size: 1.9375em;
+  line-height: 150%; /* 2.90625em */
+}
+
+.paragrafo-lg {
+  font-size: 1.375em;
+  line-height: 150%; /* 2.90625em */
+}
+
+.paragrafo {
+  font-size: 1.125em;
+  line-height: 150%; /* 1.6875em */
+}
+
+@media only screen and (max-width: 767px) {
+  .cabecalho-lg {
+    font-size: 2.75em;
+  }
+
+  .cabecalho {
+    font-size: 2.3125em;
+  }
+
+  .subtitulo-lg {
+    font-size: 1.625em;
+  }
+}
