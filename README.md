@@ -8,7 +8,6 @@ Bem-vindo ao **PizzariaHut**! Um projeto moderno para gestão de pedidos e card�
   <img src="https://img.shields.io/badge/TypeScript-5.1.6-3178c6?style=for-the-badge&logo=typescript&logoColor=white">
 </p>
 
-Este repositório contém o projeto **PizzariaHut**, uma aplicação web com um layout dinâmico, diversos componentes de cards interativos e dados Json.
 
 ## 🚀 Funcionalidades
 - Interface moderna utilizando **Vue.Js** e **Vite**
