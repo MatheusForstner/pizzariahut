@@ -1,40 +1,47 @@
-# cookin-up
+# Build Forstnery
 
-This template should help get you started developing with Vue 3 in Vite.
+Este repositório contém o projeto **Build Forstnery**, uma aplicação web com um layout dinâmico e diversos componentes de cards interativos.
 
-## Recommended IDE Setup
+## 🚀 Funcionalidades
+- Interface moderna utilizando **HTML** e **CSS**
+- Modo claro e escuro com botão de alternância
+- Diversos estilos de cards interativos
+- Fonte estilizada via Google Fonts
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Type Support for `.vue` Imports in TS
+![Gravando 2025-03-19 081926](https://github.com/user-attachments/assets/35359e4f-3eed-4d06-864c-77d849f0f025)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+## 📂 Estrutura do Projeto
+```
+/
+├── css/
+│   ├── dark.css
+│   ├── cards.css
+│   ├── style.css
+│
+├── home.html
+├── anuncio-pop-up.png
+└── README.md
 ```
 
-### Compile and Hot-Reload for Development
+## 🎨 Tecnologias Utilizadas
+- HTML5
+- CSS3
+- Font Awesome (para ícones)
 
-```sh
-npm run dev
-```
+## 🔧 Como Executar
+1. Clone este repositório:
+   ```sh
+   git clone https://github.com/MatheusForstner/Build-Forstnery.git
+   ```
+2. Abra o arquivo `home.html` em seu navegador preferido.
 
-### Type-Check, Compile and Minify for Production
+## 📌 Sobre o Projeto
+Este projeto apresenta um conjunto de **cards responsivos e estilizados**, com elementos interativos e animações. A troca entre os modos **claro** e **escuro** é feita através de um botão que altera dinamicamente a classe do `body`.
 
-```sh
-npm run build
-```
+## 📝 Licença
+Este projeto é de uso livre para estudos e aprimoramento pessoal.
+
+---
+**Desenvolvido por [Matheus Forstner](https://github.com/MatheusForstner)**
