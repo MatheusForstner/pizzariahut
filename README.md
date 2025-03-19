@@ -1,4 +1,6 @@
-# PizzariaHut
+#🍕 PizzariaHut  
+
+Bem-vindo ao **PizzariaHut**! Um projeto moderno para gestão de pedidos e cardápio de pizzaria, desenvolvido com **Vue.js** e **Vite**. 
 
 <p align="center">
   <img src="https://img.shields.io/badge/Vue.js-3.3.4-42b883?style=for-the-badge&logo=vue.js&logoColor=white">
