@@ -22,26 +22,82 @@ Bem-vindo ao **PizzariaHut**! Um projeto moderno para gestão de pedidos e card�
 ## 📂 Estrutura do Projeto
 ```
 /
-├── node_modules
-├── public/
-│   ├── imagens
-├── src/
-│   ├── assets
-│   ├── components
-│   ├── http
-│   ├── interfaces
-│   ├── operacoes
-│   ├── App
-│   ├── Main
-│
-├── env.d
-├── index
-│── package-lock.json
-│── tsconfig.json
-│── tsconfig.json
-│── tsconfig.node.json
-│── vite.config
-└── package.json
+├── .gitignore
+├── .vscode
+    └── extensions.json
+├── README.md
+├── env.d.ts
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+    ├── favicon.ico
+    └── imagens
+    │   ├── icones
+    │       └── categorias_ingredientes
+    │       │   ├── acucares_e_adocantes.png
+    │       │   ├── doces_e_guloseimas.png
+    │       │   ├── farinhas_e_fermentos.png
+    │       │   ├── frutas_frescas.png
+    │       │   ├── frutas_secas.png
+    │       │   ├── graos_cerais_e_leguminosas.png
+    │       │   ├── hortalicas_e_verduras.png
+    │       │   ├── laticinios_e_ovos.png
+    │       │   ├── oleos_gorduras_e_vinagres.png
+    │       │   ├── paes_e_massas.png
+    │       │   ├── proteinas_animais.png
+    │       │   └── temperos_e_especiarias.png
+    │   └── receitas
+    │       ├── alho_assado.png
+    │       ├── arroz_de_alho.png
+    │       ├── bacalhau_com_chips_de_alho.png
+    │       ├── creme_de_galinha.png
+    │       ├── macarrao_de_alho_e_oleo.png
+    │       ├── manteiga_com_tomilho_e_alho.png
+    │       ├── milkshake_de_chocolate.png
+    │       ├── mousse_de_chocolate.png
+    │       ├── panqueca.png
+    │       ├── pao_de_alho.png
+    │       ├── pasta_de_alho_assado.png
+    │       ├── pate_de_alho_assado.png
+    │       └── tortei.png
+├── src
+    ├── App.vue
+    ├── assets
+    │   ├── imagens
+    │   │   ├── Pizzaria.svg
+    │   │   ├── fundo-banner.png
+    │   │   ├── icones
+    │   │   │   └── lista-vazia.svg
+    │   │   ├── iconpizza.png
+    │   │   ├── logo.svg
+    │   │   ├── pesquisa.svg
+    │   │   └── pizzaria.png
+    │   └── main.css
+    ├── components
+    │   ├── Banner.vue
+    │   ├── BotaoPrincipal.vue
+    │   ├── CardCategoria.vue
+    │   ├── CardReceita.vue
+    │   ├── ConteudoPrincipal.vue
+    │   ├── IngredienteSelecionavel.vue
+    │   ├── MostrarReceitas.vue
+    │   ├── Rodape.vue
+    │   ├── SelecionarIngredientes.vue
+    │   ├── SuaLista.vue
+    │   └── Tag.vue
+    ├── http
+    │   └── index.ts
+    ├── interfaces
+    │   ├── ICategoria.ts
+    │   └── IReceita.ts
+    ├── main.ts
+    └── operacoes
+    │   └── listas.ts
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
 ```
 
 ## 🎨 Tecnologias Utilizadas
