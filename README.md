@@ -3,9 +3,9 @@
 Este repositório contém o projeto **Build Forstnery**, uma aplicação web com um layout dinâmico e diversos componentes de cards interativos.
 
 ## 🚀 Funcionalidades
-- Interface moderna utilizando **HTML** e **CSS**
-- Modo claro e escuro com botão de alternância
-- Diversos estilos de cards interativos
+- Interface moderna utilizando **Vue.Js** e **Vite**
+- Pesquisar os dados
+- Diversos estilos de cards Ingredientes
 - Fonte estilizada via Google Fonts
 
 
@@ -15,27 +15,40 @@ Este repositório contém o projeto **Build Forstnery**, uma aplicação web com
 ## 📂 Estrutura do Projeto
 ```
 /
-├── css/
-│   ├── dark.css
-│   ├── cards.css
-│   ├── style.css
+├── node_modules
+├── public/
+│   ├── imagens
+├── src/
+│   ├── assets
+│   ├── components
+│   ├── http
+│   ├── interfaces
+│   ├── operacoes
+│   ├── App
+│   ├── Main
 │
-├── home.html
-├── anuncio-pop-up.png
-└── README.md
+├── env.d
+├── index
+│── package-lock.json
+│── tsconfig.json
+│── tsconfig.json
+│── tsconfig.node.json
+│── vite.config
+└── package.json
 ```
 
 ## 🎨 Tecnologias Utilizadas
-- HTML5
-- CSS3
-- Font Awesome (para ícones)
+- Vue.JS
+- Vite
+- CSS
+- Tyescript
 
 ## 🔧 Como Executar
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/MatheusForstner/Build-Forstnery.git
+   git clone https://github.com/MatheusForstner/pizzariahut.git
    ```
-2. Abra o arquivo `home.html` em seu navegador preferido.
+2. Abra o comando no [localhost](http://localhost:5173/) `npm run dev` em seu navegador preferido.
 
 ## 📌 Sobre o Projeto
 Este projeto apresenta um conjunto de **cards responsivos e estilizados**, com elementos interativos e animações. A troca entre os modos **claro** e **escuro** é feita através de um botão que altera dinamicamente a classe do `body`.
